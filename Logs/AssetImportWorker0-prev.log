@@ -15,7 +15,7 @@ D:/Unity/Repos
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49596
+56937
 Successfully changed project path to: D:/Unity/Repos
 D:/Unity/Repos
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Unity/Repos
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9096] Host "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 964311896 [EditorId] 964311896 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B7BCCHR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6404] Host "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 134567616 [EditorId] 134567616 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B7BCCHR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9096] Host "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 964311896 [EditorId] 964311896 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B7BCCHR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6404] Host "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 134567616 [EditorId] 134567616 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B7BCCHR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
-Refreshing native plugins compatible for Editor in 80.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011846 seconds.
-- Loaded All Assemblies, in  0.770 seconds
+Registered in 0.011554 seconds.
+- Loaded All Assemblies, in  0.720 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.601 seconds
-Domain Reload Profiling: 1368ms
-	BeginReloadAssembly (249ms)
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 1256ms
+	BeginReloadAssembly (270ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (78ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (128ms)
-	LoadAllAssembliesAndSetupDomain (287ms)
-		LoadAssemblies (244ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (265ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (280ms)
-				TypeCache.ScanAssembly (255ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (220ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (602ms)
+	FinalizeReload (539ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (470ms)
+		SetupLoadedEditorAssemblies (419ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (17ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (15ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (310ms)
-			ProcessInitializeOnLoadMethodAttributes (117ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 1368ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.859 seconds
-Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.540 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.413 seconds
-Domain Reload Profiling: 3269ms
-	BeginReloadAssembly (388ms)
+- Finished resetting the current domain, in  1.634 seconds
+Domain Reload Profiling: 3171ms
+	BeginReloadAssembly (349ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (1262ms)
-		LoadAssemblies (1170ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (974ms)
+		LoadAssemblies (771ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (347ms)
-			TypeCache.Refresh (302ms)
-				TypeCache.ScanAssembly (277ms)
-			ScanForSourceGeneratedMonoScriptInfo (34ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1414ms)
+		AnalyzeDomain (436ms)
+			TypeCache.Refresh (380ms)
+				TypeCache.ScanAssembly (344ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1635ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1128ms)
+		SetupLoadedEditorAssemblies (1284ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (949ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (1088ms)
 			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3459 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (97.5 KB). Loaded Objects now: 3922.
+Unloading 36 unused Assets / (97.8 KB). Loaded Objects now: 3922.
 Memory consumption went from 127.9 MB to 127.8 MB.
-Total: 5.590445 ms (FindLiveObjects: 0.357378 ms CreateObjectMapping: 0.201422 ms MarkObjects: 4.826801 ms  DeleteObjects: 0.198000 ms)
+Total: 5.754712 ms (FindLiveObjects: 0.392578 ms CreateObjectMapping: 0.220000 ms MarkObjects: 4.924090 ms  DeleteObjects: 0.211200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,9 +180,282 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 116170.028900 seconds.
-  path: Packages/com.unity.probuilder/package.json
-  artifactKey: Guid(7958ca6fdf895ca498c5fab155f0b0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/package.json using Guid(7958ca6fdf895ca498c5fab155f0b0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef4600aad1be98562da3786f005b422') in 0.019651 seconds
+  Time since last request: 262939.403026 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.003655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.382591 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(6cb203494b4bb0e40a3c2914de9e6cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(6cb203494b4bb0e40a3c2914de9e6cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340dffa85c704008682071eb9c93de17') in 0.000688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.965734 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(6cb203494b4bb0e40a3c2914de9e6cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(6cb203494b4bb0e40a3c2914de9e6cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbcc89dab00f362c31a3fb85665afd5') in 0.000588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.302713 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(3017f691e69f5b4479934b02bd643a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(3017f691e69f5b4479934b02bd643a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c336d96520dafb83d70cb8b91f0d58d') in 0.233664 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.475867 seconds.
+  path: Assets/Materials/Cube.mat
+  artifactKey: Guid(3017f691e69f5b4479934b02bd643a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cube.mat using Guid(3017f691e69f5b4479934b02bd643a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7feb6936c7eb91fe99ee5165633ca8fc') in 0.013310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 73.144121 seconds.
+  path: Assets/SimpleNaturePack/Textures
+  artifactKey: Guid(2d44b6cffc02046488649c55d0f4d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Textures using Guid(2d44b6cffc02046488649c55d0f4d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770fad22d1031dc1df97cdee8f02eae1') in 0.000744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.275411 seconds.
+  path: Assets/Materials/Cube.mat
+  artifactKey: Guid(3017f691e69f5b4479934b02bd643a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cube.mat using Guid(3017f691e69f5b4479934b02bd643a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e1ea675ed3a479f5d2eaf3f810a8da') in 0.013235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.226663 seconds.
+  path: Assets/The Wasteland LITE/Textures
+  artifactKey: Guid(040cdfb49ec911e4ea1c3be1beeccf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures using Guid(040cdfb49ec911e4ea1c3be1beeccf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5f2053eafe80c3e1cedd1a6ca4577b') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080354 seconds.
+  path: Assets/The Wasteland LITE/Textures/Metals_Map_1A.png
+  artifactKey: Guid(9acc9b09d60eee841a9f52126022744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Metals_Map_1A.png using Guid(9acc9b09d60eee841a9f52126022744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6592ab20adbf9ecd600eb786cf7d4f96') in 0.049822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/The Wasteland LITE/Textures/Walls_Map_1A_occlusion.png
+  artifactKey: Guid(48d4f04bef6f3d84fa8d5959a26aba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Walls_Map_1A_occlusion.png using Guid(48d4f04bef6f3d84fa8d5959a26aba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516f93de21e73c98ca6a1efc753ac022') in 0.019337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/The Wasteland LITE/Textures/Walls_Map_1A_normal.png
+  artifactKey: Guid(fc0ba0428949a804faab94ed3a01c099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Walls_Map_1A_normal.png using Guid(fc0ba0428949a804faab94ed3a01c099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c72f401a9d77d20da2d515564d675d6') in 0.030316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/The Wasteland LITE/Textures/Structures_Map_1A Occlusion.png
+  artifactKey: Guid(12a47263175626846b342fb13decca93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Structures_Map_1A Occlusion.png using Guid(12a47263175626846b342fb13decca93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9045d9c074bdd2b1cb5967093550ac9b') in 0.023213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/The Wasteland LITE/Textures/Walls_Map_1A_specular.png
+  artifactKey: Guid(11da598370fb9b4409c6e485f08e678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Walls_Map_1A_specular.png using Guid(11da598370fb9b4409c6e485f08e678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daea5a0a3e022fb89ab5b6d218251923') in 0.019502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/The Wasteland LITE/Textures/Structures_Map_1A Normal.png
+  artifactKey: Guid(6b486cc328a5c1c42a830af5286e763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Structures_Map_1A Normal.png using Guid(6b486cc328a5c1c42a830af5286e763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012e7066313e97f47483e2203babf668') in 0.026040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/The Wasteland LITE/Textures/Tapestry_1A.png
+  artifactKey: Guid(1e5526762836bb44b8b8de37a1973e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Tapestry_1A.png using Guid(1e5526762836bb44b8b8de37a1973e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4577f81a09cb4e27f676ce0f29631761') in 0.019838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/The Wasteland LITE/Textures/Tapestry_1A Normal.png
+  artifactKey: Guid(0f089b58d9e0bfb4784b96e733896a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Tapestry_1A Normal.png using Guid(0f089b58d9e0bfb4784b96e733896a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4341a6090c2635c489a34ae3771c93') in 0.022159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/The Wasteland LITE/Textures/Walls_Map_1A.png
+  artifactKey: Guid(977008871bff99a47aa7ab2639c30534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Walls_Map_1A.png using Guid(977008871bff99a47aa7ab2639c30534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d45252439c3e70ee738499557fc90c') in 0.030226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/The Wasteland LITE/Textures/Metals_Map_1A_occlusion.png
+  artifactKey: Guid(0767d62640bc17b4292eb79d113fe1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Metals_Map_1A_occlusion.png using Guid(0767d62640bc17b4292eb79d113fe1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befdbc03f84cc14b191c298a21d62168') in 0.020656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/The Wasteland LITE/Textures/Metals_Map_1A_specular.png
+  artifactKey: Guid(df7c69959fdd0d04190ddaf228ca443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Metals_Map_1A_specular.png using Guid(df7c69959fdd0d04190ddaf228ca443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed1b3492fe74c11f1f5c122e2969ab1') in 0.020304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/The Wasteland LITE/Textures/Walls_Map_1A(Darkened).png
+  artifactKey: Guid(0e1efd5b0b22ccb4cb050bb6a2540695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Walls_Map_1A(Darkened).png using Guid(0e1efd5b0b22ccb4cb050bb6a2540695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9740d1c397caac30f3e827de6e08e899') in 0.020011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/The Wasteland LITE/Textures/Structures_Map_1A.png
+  artifactKey: Guid(458aa3c8cd6513d42b5606cab46e71d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Structures_Map_1A.png using Guid(458aa3c8cd6513d42b5606cab46e71d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83009ed571edc9bae340a9682e438ba') in 0.021516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/The Wasteland LITE/Textures/Metals_Map_1A_ Normal.png
+  artifactKey: Guid(d761d0db435d12c4ca352b4ddf2697f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Metals_Map_1A_ Normal.png using Guid(d761d0db435d12c4ca352b4ddf2697f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da35afb3f4d76088f2c7bac5d819654') in 0.024818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/The Wasteland LITE/Textures/Tapestry_1A Occlusion.png
+  artifactKey: Guid(98797f8d3107a364095ea5817685bd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/The Wasteland LITE/Textures/Tapestry_1A Occlusion.png using Guid(98797f8d3107a364095ea5817685bd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10348050b910537a723b46847d2ec002') in 0.019981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.217 seconds
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.126 seconds
+Domain Reload Profiling: 3340ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (742ms)
+		LoadAssemblies (869ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (45ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2127ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1070ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (891ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 8.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (78.2 KB). Loaded Objects now: 3972.
+Memory consumption went from 127.2 MB to 127.2 MB.
+Total: 5.805067 ms (FindLiveObjects: 0.367644 ms CreateObjectMapping: 0.226844 ms MarkObjects: 5.027734 ms  DeleteObjects: 0.176000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1207.136276 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader
+  artifactKey: Guid(1a6547a57444a294aa2d08bd3a527a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader using Guid(1a6547a57444a294aa2d08bd3a527a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4bdb728e60a5706f7f2e40f8e7c45e') in 0.016165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.786131 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources
+  artifactKey: Guid(dc77ad855be57214eb39fd06212f2ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources using Guid(dc77ad855be57214eb39fd06212f2ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129d27998a00777bb7c7af134c129d44') in 0.000729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.980899 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Prefabs
+  artifactKey: Guid(659a758b0bea88342a8f7d3812ab9415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Prefabs using Guid(659a758b0bea88342a8f7d3812ab9415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef94ac7d060536d83ea3ee943c827da5') in 0.000586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.469576 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Info
+  artifactKey: Guid(632838a6d3dbd974195a1f7f34ded3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgniteCoders/Simple Water Shader/Info using Guid(632838a6d3dbd974195a1f7f34ded3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42f506661c86a496aed5f8f09eb9f28') in 0.000659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
